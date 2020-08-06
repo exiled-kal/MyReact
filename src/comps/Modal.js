@@ -1,5 +1,5 @@
 import React from 'react';
-// import {motion} from 'framer-motion';
+import {motion} from 'framer-motion';
 
 const Modal = ({setSelectedImg, selectedImg}) => {
   const handleClick = (e) => {
@@ -9,19 +9,19 @@ const Modal = ({setSelectedImg, selectedImg}) => {
   };
 
   return (
-    <div
+    <motion.div
       className="backdrop"
       onClick={handleClick}
       initial={{opacity: 0}}
       animate={{opacity: 1}}
     >
-      <img
+      <motion.img
         src={selectedImg}
         alt="enlarged pic"
         initial={{y: '-100vh'}}
         animate={{y: 0}}
       />
-    </div>
+    </motion.div>
   );
 };
 

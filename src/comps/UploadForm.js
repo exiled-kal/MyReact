@@ -23,6 +23,7 @@ const UploadForm = () => {
       <label>
         <input type="file" onChange={changeHandler} />
         <span>+</span>
+        <br />
       </label>
 
       <div className="output">
