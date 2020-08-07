@@ -4,38 +4,60 @@
   --primary: #0c0706;
   --secondary: #4e4e4e;
   --error: #ff4a4a;
-
 }
 
 .header {
-
   display: flex;
-
   top: 0;
   z-index: 100;
   color: white;
-
 }
 
 .header__photo {
-
-  height: 50vh;
+  height: 40vh;
   width: 1000px;
   /* padding-left: 80px; */
 }
 
+.insta__link {
+  height: 5em !important;
+  width: 5em !important;
+}
 
+.copy__right {
+  height: 1em !important;
+  width: 1em !important;
+}
 
+home__screen {
+  height: 4em !important;
+  width: 4em !important;
+}
 
 /* base styles & title */
 body {
   font-family: 'Noto Serif';
   color: whitesmoke;
   background-color: -webkit-linear-gradient(to right,
-      #fdbb2d,
-      #b21f1f,
-      #1a2a6c);
-  background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
+      #405de6,
+      #5851db,
+      #833ab4,
+      #c13584,
+      #e1306c,
+      #fd1d1d,
+      #f56040,
+      #fcaf45,
+      #ffdc80);
+  background: linear-gradient(to right,
+      #405de6,
+      #5851db,
+      #833ab4,
+      #c13584,
+      #e1306c,
+      #fd1d1d,
+      #f56040,
+      #fcaf45,
+      #ffdc80);
 }
 
 .App {
@@ -112,6 +134,7 @@ label:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px;
+  cursor: pointer;
 }
 
 .img-wrap {
@@ -150,3 +173,10 @@ label:hover {
   box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
   border: 3px solid white;
 }
+
+.like__follow {
+  color: black;
+  text-decoration: none;
+}
+
+.copy__right {}
