@@ -1,5 +1,5 @@
 import React from 'react';
-// import PhotoCard from '../PhotoCard/PhotoCard';
+
 
 function Header() {
   return (
